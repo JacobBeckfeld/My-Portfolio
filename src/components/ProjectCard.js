@@ -1,7 +1,8 @@
 import React from 'react';
+import projectList from '../assets/projectList';
 
 const ProjectCard = ({ image, discription, title, github, deployed }) =>{
-    return(
+    return projectList.map(
         <div class="card" style="width: 18rem;">
             <img src={image} class="card-img-top" alt="..."/>
             <div class="card-body">
