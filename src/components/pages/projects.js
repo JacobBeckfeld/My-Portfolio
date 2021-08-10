@@ -4,6 +4,7 @@ import ProjectCard from '../ProjectCard';
 
 const Projects = () => {
     return(
+        <main></main>
 
     )
 

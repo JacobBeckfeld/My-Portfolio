@@ -8,38 +8,38 @@ const Nav = ({ currentPage, handlePageChange }) => {
         <ul className = "nav nav-tabs">
             <li className="nav-item">
                 <a
-                href= ""
-                onClick={() => handlePageChange("")}
-
+                className= "nav-link active"
+                href= "#about"
+                onClick={() => handlePageChange("About")}
                 >
-                
+                About
                 </a>
             </li>
-            <li>
-                <a
-                href= ""
-                onClick={() => handlePageChange("")}
-
+            <li className="nav-item">
+                <a 
+                className= "nav-link active"
+                href= "#contact"
+                onClick={() => handlePageChange("Contact")}
                 >
-                
+                Contact
                 </a>
             </li>
-            <li>
+            <li className="nav-item">
                 <a
-                href= ""
-                onClick={() => handlePageChange("")}
-
+                className= "nav-link active"
+                href= "#projects"
+                onClick={() => handlePageChange("Projects")}
                 >
-                
+                Projects
                 </a>
             </li>
-            <li>
+            <li className="nav-item">
                 <a
-                href= ""
-                onClick={() => handlePageChange("")}
-
+                className= "nav-link active"
+                href= "#resume"
+                onClick={() => handlePageChange("Resume")}
                 >
-                
+                Resume
                 </a>
             </li>
         </ul>
