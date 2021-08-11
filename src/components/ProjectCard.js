@@ -1,20 +1,25 @@
 import React from 'react';
-import projectList from '../assets/projectList';
 
-const ProjectCard = ({ image, discription, title, github, deployed }) =>{
-    return projectList.map(
-        <div class="card" style="width: 18rem;">
-            <img src={image} class="card-img-top" alt="..."/>
-            <div class="card-body">
-                <h5 class="card-title"> {title} </h5>
-                <p class="card-text"> {discription}</p>
-            </div>
-            <div class="card-body">
-                <a href={github} class="card-link"></a>
-                <a href={deployed} class="card-link"></a>
+
+const ProjectCard = (props) => {
+    return (
+        <div className="d-flex justify-content-center">
+            <div className="col-5">
+                <div className="card" key={props.id}>
+                    <img src={props.image} className="card-img-top" alt="..."/>
+                    <div className="card-body">
+                        <h5 className="card-title"> {props.title} </h5>
+                        <p className="card-text"> {props.discription}</p>
+                    </div>
+                    <div className="card-body">
+                        <a href={props.github} className="card-link">Github</a>
+                        <a href={props.deployed} className="card-link">Deployed App</a>
+                    </div>
+                </div>
             </div>
         </div>
     )
+    
 }
 
 export default ProjectCard;

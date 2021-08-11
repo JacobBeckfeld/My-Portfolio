@@ -1,10 +1,14 @@
 import React from 'react';
-import projects from '../../assets/projectList';
+import projectList from '../../assets/projectList';
 import ProjectCard from '../ProjectCard';
 
 const Projects = () => {
     return(
-        <main></main>
+        <main>
+            { projectList.map( project => (
+                <ProjectCard {...project} />
+            ))}
+        </main>
 
     )
 
