@@ -14,12 +14,12 @@ const About = () => {
                             <p className="card-text">My name is Jacob Beckfeld and I am a full-stack developer from minneapolis MN. </p>
                             <p className="card-text">I work with HTML/CSS, JavaScript, NodeJS, Express, MySQL, MongoDB and React.</p>
                             <p className="card-text">I have a passion for video games and hope to one day be working on developing them.</p>
-                            <div className="row">
+                            <div className="row align-content-end">
                                 <a href="https://www.linkedin.com/in/jacob-beckfeld-2a6088213/" className="col-4">
-                                    <img src="linkdin-icon.png" className="img-fluid"></img>
+                                    <img src="linkdin-icon.png" className="img-fluid rounded-circle "></img>
                                 </a>
-                                <a href="https://github.com/JacobBeckfeld" className="col-6">
-                                    <img src="github-icon.png" className="img-fluid"></img>
+                                <a href="https://github.com/JacobBeckfeld" className="col-4">
+                                    <img src="github-icon.png" className="img-fluid rounded-circle "></img>
                                 </a>
                             </div>
                         </div>
