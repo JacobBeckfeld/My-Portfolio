@@ -1,7 +1,7 @@
 import React from 'react';
 import  "./style.css"
 
-
+//changing file
 const ProjectCard = ({id, image, title, discription, github, deployed}) => {
     return (
         <div className="col-5 col-md-offset-2 p-2" key={id}>
