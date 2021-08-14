@@ -1,6 +1,5 @@
 body {
     background-color: black;
-    height: 100%;
 }
 
 .nav{
@@ -16,6 +15,12 @@ body {
 
 .about{
     padding: 10%;
+}
+
+.resume{
+    padding-top: 10%;
+    border-radius: 2%;
+    border-color: black;
 }
 
 

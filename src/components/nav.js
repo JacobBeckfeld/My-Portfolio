@@ -8,28 +8,28 @@ const Nav = ({ currentPage, handlePageChange }) => {
         <div>
             <ul className="nav justify-content-end">
                 <li className="nav-item">
-                    <a className="nav-link active linkStyle"
+                    <a className="nav-link active link-style"
                     href="#about"
                     onClick={() => handlePageChange("About")}>
                     About
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link linkStyle"
+                    <a className="nav-link link-style"
                     href="#contact"
                     onClick={() => handlePageChange("Contact")}>
                     Contact
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link linkStyle" 
+                    <a className="nav-link link-style" 
                     href="#projects"
                     onClick={() => handlePageChange("Projects")}>
                     Projects
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link linkStyle" 
+                    <a className="nav-link link-style" 
                     href="#resume"
                     onClick={() => handlePageChange("Resume")}>
                     Resume

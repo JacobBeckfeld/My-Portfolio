@@ -3,8 +3,8 @@ import React from 'react';
 const Resume = () => {
     return (
         <main>
-            <div className="row justify-content-center">
-                <div className="col-6 card text-center">
+            <div className="resume row justify-content-center">
+                <div className="col-4 card text-center">
                     <div className="card-header">
                     </div>
                     <div className="card-body">
