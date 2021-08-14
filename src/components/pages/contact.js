@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
     return (
         <main>
-            <div className="flex-row">
+            <div className="contact-card flex-row">
                 <div className="col-4 mx-auto">
                     <div className="mb-3">
                         <label for="exampleFormControlInput1" className="form-label">name</label>
