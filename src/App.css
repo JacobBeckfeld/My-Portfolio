@@ -1,1 +1,22 @@
+body {
+    background-color: black;
+    height: 100%;
+}
+
+.nav{
+    background-color: rgb(158, 154, 154);
+    font-size: 20px;
+}
+
+.card-container{
+    padding: 1%;
+    max-height: 250px;
+    
+}
+
+.about{
+    padding: 10%;
+}
+
+
 

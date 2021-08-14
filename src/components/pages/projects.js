@@ -4,11 +4,11 @@ import ProjectCard from '../ProjectCard';
 
 const Projects = () => {
     return(
-        <main>
+        <div className="d-flex flex-wrap justify-content-center">
             { projectList.map( project => (
                 <ProjectCard {...project} />
             ))}
-        </main>
+        </div>
 
     )
 

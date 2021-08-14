@@ -4,11 +4,12 @@ import Resume from "./pages/Resume";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import About  from "./pages/About"
+import Jumbotron from './Jumbotron';
 
 const Portfolio = () => {
-    const[currentPage, setCurrentPage] = useState("About")
+    const[currentPage, setCurrentPage] = useState("Home")
     const renderPage = () => {
-        if (currentPage === "About") {
+        if (currentPage === "About" || currentPage === "Home") {
             return <About/>;
         }
         if (currentPage === "Contact") {
@@ -23,11 +24,13 @@ const Portfolio = () => {
     }
 
     const handlePageChange = (page) => setCurrentPage(page);
-
+//add a jumbotron
     return(
         <main>
-            <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
-            {renderPage()}
+            <Jumbotron/>
+                <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
+                {renderPage()}
+
         </main>
         
     )
