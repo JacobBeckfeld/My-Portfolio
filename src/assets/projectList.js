@@ -30,10 +30,18 @@ const projectList = [
     {
     id: 4,
     title: "Day Planner",
-    image: "day-planner.png",
+    image: "/day-planner.png",
     github: "https://github.com/JacobBeckfeld/Day-Planner.git",
     deployed: "https://jacobbeckfeld.github.io/Day-Planner/",
     discription: "This app is a day planner that changes color depending on the hour."
+    },
+    {
+    id:5,
+    title: "Diablo Profile Search",
+    image: "/dashboard.PNG",
+    github: "https://github.com/JacobBeckfeld/Project-3.git",
+    deployed: "https://desolate-chamber-11891.herokuapp.com/",
+    discription: "This we app is used to create a profile that can search for diablo profiles and show their characters and stats. App also shows leaderboards and specifics about each character."
     }
 ]
 
