@@ -15,13 +15,6 @@ const Nav = ({ currentPage, handlePageChange }) => {
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link link-style"
-                    href="#contact"
-                    onClick={() => handlePageChange("Contact")}>
-                    Contact
-                    </a>
-                </li>
-                <li className="nav-item">
                     <a className="nav-link link-style" 
                     href="#projects"
                     onClick={() => handlePageChange("Projects")}>
