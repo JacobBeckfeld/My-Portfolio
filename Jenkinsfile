@@ -7,8 +7,6 @@ pipeline {
 
     stages {
         stage('Build') {
-
-            }
             steps {
                 echo 'Building..'
             }
@@ -26,7 +24,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                echo "Deploying version ${VERSION}"
+                echo "Deploying version ${params.VERSION}"
             }
         }
     }
